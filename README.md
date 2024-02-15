@@ -1,8 +1,13 @@
-# React + Vite
+# Travel Destinations Explorer
+Welcome to Travel Destinations Explorer! This project is a React-based web application that allows users to explore various travel destinations. Users can view information and images of different locations, helping them plan their next adventure.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Features
 
-Currently, two official plugins are available:
+Responsive Design: The application is designed to be responsive, ensuring a seamless experience across various devices, including mobile phones and tablets.
+Navbar: Navigate through the application with ease using the responsive navbar.
+Banner: Get inspired by beautiful images of travel destinations in the banner section.
+Content: Explore different travel destinations with descriptions and images in the content section.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+React
+CSS
