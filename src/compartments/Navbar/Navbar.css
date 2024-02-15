@@ -1,0 +1,98 @@
+navbar.css
+body {
+  width: 100vw;
+}
+
+.container {
+  width: 100vw;
+  height: 10vh;
+  background-color:#130f40;
+  padding: 10px;
+  display:flex;
+  align-items: center;
+  color:white;
+}
+.fullBar {
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  width:100%;
+  padding:30px
+}
+.leftMatter {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.companyName {
+  font-family: fantasy;
+  font-size: 38px;
+  background: linear-gradient(45deg, #25ccf7, #f8efba, #0f6);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+
+
+.navList li {
+  position: relative;
+  padding: 0 20px;
+}
+
+button {
+  border: none;
+  width: 90px;
+  box-shadow: inset 0px 1px 1px 0px rgba(255, 255, 255, 0.1), 0px 50px 100px -20px rgba(50, 50, 93, 0.25), 0px 30px 60px -30px rgba(0, 0, 0, 0.3);
+  background-color: #f8efba;
+  border-radius: 5px;
+  outline: none;
+  font-family: cursive;
+}
+
+@media only screen and (max-width: 767px) {
+
+  .container {
+    height: auto;
+  }
+
+  .fullBar {
+    flex-direction: column;
+    align-items:center;
+  }
+
+  .leftMatter {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .companyName {
+    font-size: 24px;
+  }
+
+  .navMenu {
+    margin-top: 20px;
+  }
+
+  .navList {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navList li {
+    padding: 10px 0;
+  }
+
+  button {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 20px;
+  }
+
+}

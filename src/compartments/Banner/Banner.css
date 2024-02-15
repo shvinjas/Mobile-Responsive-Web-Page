@@ -1,0 +1,84 @@
+
+
+.bannerContainer {
+  width: 100%;
+  height: 50vh;
+  background-image: url(images/tour1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.bannerMain {
+  display: flex;
+  height: 88%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.text {
+  margin-right: 1000px;
+  width: 400px;
+  margin-top: 20px;
+}
+
+.text h1 {
+  text-transform: uppercase;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 48px;
+}
+
+.bannerBox {
+  gap: 10px;
+  display: flex;
+}
+
+.inputBox {
+  width: 700px;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+}
+
+.bannerButton {
+  font-weight: bold;
+  width: 200px;
+}
+
+
+@media only screen and (max-width: 767px) {
+ 
+  .bannerMain {
+    gap: 20px;
+  }
+
+  .text {
+    margin-right: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .text h1 {
+    font-size: 32px;
+  }
+
+  .bannerBox {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .inputBox {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .bannerButton {
+    width: 100%;
+    max-width: 150px;
+  }
+
+
+}
+
